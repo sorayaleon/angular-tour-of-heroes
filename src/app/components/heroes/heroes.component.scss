@@ -47,6 +47,13 @@
   border-radius: 4px 0 0 4px;
 }
 
-input {
-  padding: .5rem;
+.row {
+  display: flex;
+  flex: flex-wrap;
+}
+
+.col-md-6 {
+  -ms-flex: 0 0 50%;
+  flex: 0 0 50%;
+  max-width: 50%;
 }
